@@ -1,0 +1,19 @@
+def is_prime(n):
+  pass # todo
+  divisor_found = False
+  number=n
+  for i in range(n//2, 1, -1):
+    print (i, number%i)
+    if (number % i == 0) and  i !=1:
+      divisor_found = True
+      break
+
+  if (divisor_found == False and number !=1):
+    return True
+  else:
+    return False
+      
+      
+      
+    
+    
